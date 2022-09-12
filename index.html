@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Memoria</title>
+</head>
+<link rel="stylesheet" href="memoria.css">
+<body>
+    <main>
+        <section class="sct1">
+            <h1>Juego de memoria</h1>
+    <table>
+        <tr>
+            <td><Button id="0" onclick="descubrir(0)"></Button></td>
+            <td><Button id="1" onclick="descubrir(1)"></Button></td>
+            <td><Button id="2" onclick="descubrir(2)"></Button></td>
+            <td><Button id="3" onclick="descubrir(3)"></Button></td>
+        </tr>
+        <tr>
+            <td><Button id="4" onclick="descubrir(4)"></Button></td>
+            <td><Button id="5" onclick="descubrir(5)"></Button></td>
+            <td><Button id="6" onclick="descubrir(6)"></Button></td>
+            <td><Button id="7" onclick="descubrir(7)"></Button></td>
+        </tr>
+        <tr>
+            <td><Button id="8" onclick="descubrir(8)"></Button></td>
+            <td><Button id="9" onclick="descubrir(9)"></Button></td>
+            <td><Button id="10" onclick="descubrir(10)"></Button></td>
+            <td><Button id="11" onclick="descubrir(11)"></Button></td>
+        </tr>
+        <tr>
+            <td><Button id="12" onclick="descubrir(12)"></Button></td>
+            <td><Button id="13" onclick="descubrir(13)"></Button></td>
+            <td><Button id="14" onclick="descubrir(14)"></Button></td>
+            <td><Button id="15" onclick="descubrir(15)"></Button></td>
+        </tr>
+    </table>
+        </section>
+    
+    <section class="sct2">
+        <h2 id="aciertos" class="estadisticas">Nº de aciertos: 0</h2>
+        <h2 id="t_restante" class="estadisticas">30 segundos restantes</h2>
+        <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+    </section>
+
+    <footer>
+        <p></p>
+    </footer>
+
+    </main>
+</body>
+<script src="memoria.js"></script>
+</html>
